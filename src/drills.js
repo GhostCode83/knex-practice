@@ -63,4 +63,16 @@ function totalCostOfEachCategory() {
 
 }
 
-totalCostOfEachCategory()
+//totalCostOfEachCategory()
+
+function showArticles() {
+  knexInstance
+    .select('id', 'title', 'content', 'date_published')
+    .from('blogful_articles')
+    .then(result => {
+      console.log(result)
+    })
+}
+
+showArticles()
+

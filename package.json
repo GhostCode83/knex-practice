@@ -1,16 +1,17 @@
 {
-  "name": "express-boilerplate",
+  "name": "knex-practice",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "mocha --require test/setup.js",
-    "start": "node src/practice.js"
+    "start": "node src/blogful.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chai": "^4.2.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
