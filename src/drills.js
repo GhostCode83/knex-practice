@@ -63,7 +63,7 @@ function totalCostOfEachCategory() {
 
 }
 
-//totalCostOfEachCategory()
+totalCostOfEachCategory()
 
 function showArticles() {
   knexInstance
@@ -74,5 +74,5 @@ function showArticles() {
     })
 }
 
-showArticles()
+//showArticles()
 
